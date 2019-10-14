@@ -1,0 +1,7 @@
+j:\source\repos\ATM_Machine\ATM_Machine\bin\Debug\ATM_Machine.exe.config
+j:\source\repos\ATM_Machine\ATM_Machine\bin\Debug\ATM_Machine.exe
+j:\source\repos\ATM_Machine\ATM_Machine\bin\Debug\ATM_Machine.pdb
+j:\source\repos\ATM_Machine\ATM_Machine\obj\Debug\ATM_Machine.csprojAssemblyReference.cache
+j:\source\repos\ATM_Machine\ATM_Machine\obj\Debug\ATM_Machine.csproj.CoreCompileInputs.cache
+j:\source\repos\ATM_Machine\ATM_Machine\obj\Debug\ATM_Machine.exe
+j:\source\repos\ATM_Machine\ATM_Machine\obj\Debug\ATM_Machine.pdb
