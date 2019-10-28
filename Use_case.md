@@ -18,7 +18,7 @@ Słownik
 
 Hasło       Opis
 ----------- -----------------------------
-masło    Opis hasła ...
+hasło    Opis hasła ...
 
 Przypadki użycia
 ----------------
@@ -33,12 +33,12 @@ Klient podchodzi do bankomatu z kartą i pieniędzmi. Wkłada kartę do bankomat
 
 ### Use case 3: Zakup kodu do telefonii prepaidowej
 
-Opis skrócony ...
+Klient podchodzi do bankomatu z kartą. Wkłada kartę do bankomatu a następnie wpisuje pin do weryfikacji. System wyświetla opcje które obsługuje. Klient wybiera opcję zakupu kodu do telefonii prepaidowej. Następnie klient wpisuje kwote doladowania jaka chce otrzymac. Po pomyslnej weryfikacji stanu konta bankomat uaktualnia ilosc pieniedzy na koncie, zwraca kartę klienta i po jej odbiorze drukuje kod do telefonii prepaidowej.
 
 ### Use case 4: Sprawdzenie stanu konta
 
-Opis skrócony ...
+Klient podchodzi do bankomatu z kartą. Wkłada kartę do bankomatu a następnie wpisuje pin do weryfikacji. System wyświetla opcje które obsługuje. Klient wybiera opcję sprawdzenia stanu konta. Bankomat wyświetla stan konta, a następnie zwraca kartę klienta.
 
 ### Use case 5: Wykonywanie operacji przelewu dla użytkowników
 
-Opis skrócony ...
+Klient podchodzi do bankomatu z kartą. Wkłada kartę do bankomatu a następnie wpisuje pin do weryfikacji. System wyświetla opcje które obsługuje. Klient wybiera opcję przelewu dla użytkownika i wpisuje numer konta na które mają zostać przelane pieniądze. Klient wpisuje kwotę którą chce przelać, a system weryfikuje stan konta.  Po pomyslnej weryfikacji bankomat uaktualnia stany kont obu użytkowników. Nakoniec bankomat zwraca karte klienta.
