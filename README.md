@@ -10,22 +10,22 @@
 # Pełny przypadek uzycia
  
  
-#Use Case 1: Wypłata pieniędzy
+# Use Case 1: Wypłata pieniędzy
  
-#Aktor podstawowy (Primary actor): 
+# Aktor podstawowy (Primary actor): 
 - Klient
  
-#Główni odbiorcy i oczekiwania względem systemu:
+# Główni odbiorcy i oczekiwania względem systemu:
 - Klient: Chce szybko i bez problemów wypłacić pieniądze.
 - Bank: Chce bez problemu wypłacić pieniądze klientowi i jednocześnie pobrać pieniądze  z konta klienta.
  
-#Warunki wstępne:
+# Warunki wstępne:
 - Bankomat jest uruchomiony i posiada odpowiednią kwotę piniędzy w środku. Klient posiada konto w dowonlym banku i posiada przy sobie kartę bankomatową przypisaną do tego konta.
  
-#Warunki końcowe:
+# Warunki końcowe:
 - Pieniądze zostają wydane. System bankowy i stan pieniędzy klienta na koncie zostają zaktualizowane.
  
-#Scenariusz główny (ścieżka podstawowa):
+# Scenariusz główny (ścieżka podstawowa):
 1. Klient podchodzi z kartą do bankomatu //do usuniecia
 2. Klient wkłada kartę do bankomatu
 3. Bankomat rozpoczyna weryfikację karty
@@ -37,7 +37,7 @@
 9. Klient odbiera kartę a nastepnie pieniądze z bankomatu
 10. Klient wybera czy chce lub nie wydrukować potwierdzenie i odchodzi
  
-#Rozszerzenia (ścieżki alteratywne):
+# Rozszerzenia (ścieżki alteratywne):
 *a. W dowolnym momencie kiedy system zawiesza się:
     1. System wyświetla komunikat o uszkodzeniu bankomatu i wyświetla numer do obsługi
     2. W przypadku kiedy karta jest w środku bankomatu podczas zawieszenia to w miarę możliwości próbuje ją wydać
@@ -67,7 +67,7 @@
  
  
  
-#Wymagania spacjalne:
+# Wymagania spacjalne:
  - Możliwość interfejsu wielojęzykowego
  - czytelna czcionka na wyświetlaczu z odległości 1 metra
  - wygodne dobrze klikalne klawisze na klawiaturze
@@ -75,9 +75,9 @@
  - Wejście na karte powinno być takiego typu by nie można było nałożyć specjalnej nakładki do kradzieży danych z karty
  
  
-#Wymagania technologiczne oraz ograniczenia na wprowadzane dane:
+# Wymagania technologiczne oraz ograniczenia na wprowadzane dane:
 3a. Weryfikacja odbywa się przez czytnik kart
  
  
-#Kwestie otwarte:
+# Kwestie otwarte:
 - 
