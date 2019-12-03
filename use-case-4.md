@@ -1,1 +1,83 @@
-Use case 4: Sprawdzenie stanu konta=====================**Aktor podstawowy:** Posiadacz konta w bankuG¸—wni odbiorcy i oczekiwania wzgl«dem systemu:------------------------------------------------ Posiadacz konta w banku oczekuje:  - p¸ynnoæ dzia¸ania  - bezawaryjnoæ  - nieomylnoæ  - prywatnoæWarunki wst«pne:----------------  - Wsadzenie karty do bankomatu  - Weryfikacja karty  - Weryfikacja uıytkownika przy uıyciu kodu 6 cyfrowego kodu pin  - Po wpisaniu b¸«dnego kodu uıytkownik otrzymuje moıliwoæ ponownego wpisania kodu  - Wyb—r funkcji sprawdzenie salda kontaWarunki koÄcowe:  - Przedstawienie informacji o aktualnym saldzie konta  - Przejæcie do menu bankomatu  - Wylogowanie uıytkownika  - Odbi—r kartyScenariusz g¸—wny (æcieıka podstawowa):---------------------------------------  1. Uıytkownik podchodzi do bankomatu, po czym wk¸ada do niego kart«  2. Bankomat weryfikuje kart«  3. Bankomat oczekuje na wprowadzenie kodu pin  4. Bankomat oczekuje na potwierdzenie kodu pin  5. Bankomat przeprowadza weryfikacj« uıytkownika przez por—wnanie kodu pinu  6. Wyb—r z menu funkcjonalnoæci przez uıytkownika  7. Wyæwietlenie aktualnego i poprawnego salda konta  8. Zaproponowanie uıytkownikowi przejæcie do menu g¸—wnego  9. Ukazanie w widocznym miejscu uıytkownikowi funkcji wylogowania  10. Upomnienie uıytkownika o koniecznoæci odbioru karty  11. Wyæwietlenie komunikatu o poprawnym wylogowaniuRozszerzenia (æcieıki alternatywne):------------------------------------ *2. Weryfikacja karty 2a. Karta z banku niewspieranego przez bankomat 2b. Uszkodzona lub niespe¸niajˆca wymagaÄ bezpieczeÄstwa karta *4. Wielokrotnie b¸«dnie wpisane has¸o4a. B¸«dny kod pin4b. Pin niezgodny z standardami (zbyt ma¸a liczba znak—w)Wymagania specjalne:--------------------  - Niezb«dny wyæwietlacz zapewniajˆcy czytelny odczyt komunikat—w- Niezb«dna klawiatura do wprowadzeniu kodu pin oraz podstawowej komunikacji z bankomatem.  - Niezb«dny czytnik kart bankomatowychWymagania technologiczne oraz ograniczenia na wprowadzane dane:--------------------------------------------------------------- 2a. Identyfikator karty zgodny z standardami  4a. Maksymalna liczba b¸«dnie wprowadzonych kod—w pin ustalona na wartoæ 5, po tym czasie bankomat wysuwa kart« oraz informuje uıytkownika o zablokowanym dost«pie do systemu bankowego na czas 30 min 6a. Uıytkownik przez 90 sekund nie wybra¸ ıadnej funkcji z menu bankomatu. Po tym czasie bankomat wyloguje uıytkownika, wysuwa kart« oraz wyæwietla stosowny komunikatKwestie otwarte:----------------  - Jak zweryfikowa czy uıytkownik zabra¸ wysuni«tˆ kart« bankomatowˆ  - Co si« wydarzy jeıeli uıytkownik po wylogowaniu nie odbierze karty bankomatowej  
+Use case 4: Sprawdzenie stanu konta
+=====================
+
+**Aktor podstawowy:** Posiadacz konta w banku
+
+
+GÅ‚Ã³wni odbiorcy i oczekiwania wzglÄ™dem systemu:
+-----------------------------------------------
+
+- Posiadacz konta w banku oczekuje:
+  - pÅ‚ynnoÅ›Ä‡ dziaÅ‚ania
+  - bezawaryjnoÅ›Ä‡
+  - nieomylnoÅ›Ä‡
+  - prywatnoÅ›Ä‡
+
+Warunki wstÄ™pne:
+----------------
+  - Wsadzenie karty do bankomatu
+  - Weryfikacja karty
+  - Weryfikacja uÅ¼ytkownika przy uÅ¼yciu kodu 6 cyfrowego kodu pin
+  - Po wpisaniu bÅ‚Ä™dnego kodu uÅ¼ytkownik otrzymuje moÅ¼liwoÅ›Ä‡ ponownego wpisania kodu
+  - WybÃ³r funkcji sprawdzenie salda konta
+
+Warunki koÅ„cowe:
+  - Przedstawienie informacji o aktualnym saldzie konta
+  - PrzejÅ›cie do menu bankomatu
+  - Wylogowanie uÅ¼ytkownika
+  - OdbiÃ³r karty
+
+Scenariusz gÅ‚Ã³wny (Å›cieÅ¼ka podstawowa):
+---------------------------------------
+
+  1. UÅ¼ytkownik podchodzi do bankomatu, po czym wkÅ‚ada do niego kartÄ™
+  2. Bankomat weryfikuje kartÄ™
+  3. Bankomat oczekuje na wprowadzenie kodu pin
+  4. Bankomat oczekuje na potwierdzenie kodu pin
+  5. Bankomat przeprowadza weryfikacjÄ™ uÅ¼ytkownika przez porÃ³wnanie kodu pinu
+  6. WybÃ³r z menu funkcjonalnoÅ›ci przez uÅ¼ytkownika
+  7. WyÅ›wietlenie aktualnego i poprawnego salda konta
+  8. Zaproponowanie uÅ¼ytkownikowi przejÅ›cie do menu gÅ‚Ã³wnego
+  9. Ukazanie w widocznym miejscu uÅ¼ytkownikowi funkcji wylogowania
+  10. Upomnienie uÅ¼ytkownika o koniecznoÅ›ci odbioru karty
+  11. WyÅ›wietlenie komunikatu o poprawnym wylogowaniu
+
+Rozszerzenia (Å›cieÅ¼ki alternatywne):
+------------------------------------
+
+ *2. Weryfikacja karty
+
+ 2a. Karta z banku niewspieranego przez bankomat
+
+ 2b. Uszkodzona lub niespeÅ‚niajÄ…ca wymagaÅ„ bezpieczeÅ„stwa karta
+
+*4. Wielokrotnie bÅ‚Ä™dnie wpisane hasÅ‚o
+
+4a. BÅ‚Ä™dny kod pin
+
+4b. Pin niezgodny z standardami (zbyt maÅ‚a liczba znakÃ³w)
+
+Wymagania specjalne:
+--------------------
+
+  - NiezbÄ™dny wyÅ›wietlacz zapewniajÄ…cy czytelny odczyt komunikatÃ³w
+
+- NiezbÄ™dna klawiatura do wprowadzeniu kodu pin oraz podstawowej komunikacji z bankomatem.
+
+  - NiezbÄ™dny czytnik kart bankomatowych
+
+Wymagania technologiczne oraz ograniczenia na wprowadzane dane:
+---------------------------------------------------------------
+
+ 2a. Identyfikator karty zgodny z standardami
+
+ 4a. Maksymalna liczba bÅ‚Ä™dnie wprowadzonych kodÃ³w pin ustalona na wartoÅ›Ä‡ 5, po tym czasie bankomat wysuwa kartÄ™ oraz informuje uÅ¼ytkownika o zablokowanym dostÄ™pie do systemu bankowego na czas 30 min
+
+ 6a. UÅ¼ytkownik przez 90 sekund nie wybraÅ‚ Å¼adnej funkcji z menu bankomatu. Po tym czasie bankomat wyloguje uÅ¼ytkownika, wysuwa kartÄ™ oraz wyÅ›wietla stosowny komunikat
+
+Kwestie otwarte:
+----------------
+
+  - Jak zweryfikowaÄ‡ czy uÅ¼ytkownik zabraÅ‚ wysuniÄ™tÄ… kartÄ™ bankomatowÄ…
+
+  - Co siÄ™ wydarzy jeÅ¼eli uÅ¼ytkownik po wylogowaniu nie odbierze karty bankomatowej
