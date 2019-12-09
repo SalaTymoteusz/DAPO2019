@@ -1,7 +1,7 @@
-#Zdarzenia systemowe
+Zdarzenia systemowe
 ===================
 
-#Use case 1: Wypłata pieniędzy
+Use case 1: Wypłata pieniędzy
 -----------------
     - Klient wybiera język w którym chce używać bankomatu
 	- Klient wkłada kartę do bankomatu
@@ -16,7 +16,7 @@
     - Klient cofa się do ekranu wyboru opcji
     - Klient usuwa dane
   
-#Use case 2: Wpłata pieniędzy
+Use case 2: Wpłata pieniędzy
 -----------------
 	- Klient wkłada kartę do bankomatu
 	- Klient wprowadza pin
@@ -30,7 +30,7 @@
     - Klient cofa się do ekranu wyboru opcji
     - Klient usuwa dane
 	
-#Use case 3: Zakup kodu do telefonii prepaidowej
+Use case 3: Zakup kodu do telefonii prepaidowej
 -----------------
 	- Klient wkłada kartę do bankomatu
 	- Klient wprowadza pin
@@ -45,7 +45,7 @@
     - Klient cofa się do ekranu wyboru opcji
     - Klient usuwa dane
 
-#Use case 4: Sprawdzenie stanu konta
+Use case 4: Sprawdzenie stanu konta
 -----------------
 	- Klient wkłada kartę do bankomatu
 	- Klient wprowadza pin
