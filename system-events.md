@@ -32,7 +32,7 @@ Use case 3: Zakup kodu do telefonii prepaidowej
 	- Klient wprowadza pin
 	- Klient wybiera opcję zakupu kodu do telefonii prepaidowej
 	- Klient wybiera kwotę zasilenia
-    	- Klient zabiera kod doładowania
+	- Klient zabiera kod doładowania
 	- Klient zabiera karte
 
 Use case 4: Sprawdzenie stanu konta
