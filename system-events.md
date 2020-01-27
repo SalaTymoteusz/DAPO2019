@@ -50,14 +50,9 @@ Use case 4: Sprawdzenie stanu konta
 	- Klient wkłada kartę do bankomatu
 	- Klient wprowadza pin
 	- Klient wybiera opcję sprawdzenia stanu konta
-    - Klient wybiera czy wydrukować stan konta na potwierdzeniu
 	- Klient odbiera potwierdzenie
-	- Klient zabiera kartę
-    - Klient anuluje transakcje
-    - Klient wybiera język w którym chce używać bankomatu
-    - Klient cofa się do ekranu wyboru opcji
+	- Klient odbiera kartę
     
-
 Use case 5: Wykonywanie operacji przelewu dla użytkowników
 -----------------
 
