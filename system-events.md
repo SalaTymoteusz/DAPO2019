@@ -32,14 +32,8 @@ Use case 3: Zakup kodu do telefonii prepaidowej
 	- Klient wprowadza pin
 	- Klient wybiera opcję zakupu kodu do telefonii prepaidowej
 	- Klient wybiera kwotę zasilenia
-	- Klient potwierdza wybraną kwotę
-    - Klient odbiera kod doładowania
-	- Klient odbiera potwierdzenie
-	- Klient zabiera kartę
-    - Klient anuluje transakcje
-    - Klient wybiera język w którym chce używać bankomatu
-    - Klient cofa się do ekranu wyboru opcji
-    - Klient usuwa dane
+    	- Klient zabiera kod doładowania
+	- Klient zabiera karte
 
 Use case 4: Sprawdzenie stanu konta
 -----------------
