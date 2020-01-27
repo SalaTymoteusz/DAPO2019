@@ -25,10 +25,6 @@ Use case 2: Wpłata pieniędzy
 	- Klient zatwierdza wpłatę danej kwoty pieniędzy
 	- Klient odbiera potwierdzenie
 	- Klient zabiera kartę
-    - Klient anuluje transakcje
-    - Klient wybiera język w którym chce używać bankomatu
-    - Klient cofa się do ekranu wyboru opcji
-    - Klient usuwa dane
 	
 Use case 3: Zakup kodu do telefonii prepaidowej
 -----------------
